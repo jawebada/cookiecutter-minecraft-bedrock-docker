@@ -6,7 +6,7 @@
   "difficulty": "easy",
   "operator_name": "DreamingSausage73",
   "operator_xuid": "3935415431599790",
-  "published_udp_port": "54321",
+  "published_udp_port": "19132",
   "docker_context": "minecraft",
   "registry_prefix": "registry:5000"
 }
