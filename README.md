@@ -9,6 +9,12 @@ which can be easily deployed to a docker swarm node.
 Players are whitelisted and you will be asked for the operator's Minecraft name
 and XUID.
 
+The world will be saved in a volume created by the docker-compose file. 
+
+*If your docker swarm consists of multiple nodes you will have to add label
+constraints to
+[control the placement of the container](https://success.docker.com/article/using-contraints-and-labels-to-control-the-placement-of-containers).*
+
 How to use
 ----------
 
@@ -36,3 +42,4 @@ How to use
 * Download the [latest bedrock server software for ubuntu](https://www.minecraft.net/en-us/download/server/bedrock/)
 * Optionally, edit `whitelist.json`, `server.properties`, or `permissions.json` as required
 * `make && make deploy`
+* Add the fully qualified domain name and the port of your new server to the server tab of your Minecraft client
