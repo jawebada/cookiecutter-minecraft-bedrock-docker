@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  minecraft:
+    image: "livland:5000/minecraft"
+    build:
+      context: .
+    volumes:
+      - "worlds:/opt/minecraft/worlds"
+    deploy:
+      labels:
+        - "traefik.udp.routers.minecraft-router.entrypoint=udp"
+        - "traefik.udp.services.minecraft-service.loadbalancer.server.port=53142"
+
+volumes:
+  worlds:
