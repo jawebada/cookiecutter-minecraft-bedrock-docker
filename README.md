@@ -1,4 +1,4 @@
-Docker Swarm Stack for the Bedrock Minecraft server
+Docker swarm stack for the bedrock Minecraft server
 ===================================================
 
 This is a [Cookiecutter](https://cookiecutter.readthedocs.io) template to
