@@ -6,4 +6,4 @@ COPY server.properties whitelist.json permissions.json /opt/minecraft/
 WORKDIR /opt/minecraft
 ENV LD_LIBRARY_PATH=/opt/minecraft
 CMD /opt/minecraft/bedrock_server
-EXPOSE 53142/udp
+EXPOSE 19132/udp

@@ -1,7 +1,0 @@
-#!/bin/bash
-
-docker context use livland
-docker stack deploy -c docker-compose.yml minecraft
-
-# reset context to default to prevent accidental prod deployment
-docker context use default

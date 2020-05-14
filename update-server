@@ -1,7 +1,0 @@
-#!/bin/bash
-
-test -z "$1" && { echo "usage: `basename $0` server.zip"; exit; }
-
-mkdir minecraft && unzip $1 -d minecraft
-tar cvjf minecraft.tar.bz2 minecraft
-rm -rf minecraft

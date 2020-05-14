@@ -1,0 +1,12 @@
+{
+  "project_slug": "minecraft-bedrock-docker",
+  "server_name": "Livland",
+  "level_name": "Livland 1",
+  "game_mode": "survival",
+  "difficulty": "easy",
+  "operator_name": "ThinkingSugar56",
+  "operator_xuid": "2535411434592793",
+  "published_udp_port": "53142",
+  "docker_context": "livland",
+  "registry_prefix": "livland:5000"
+}

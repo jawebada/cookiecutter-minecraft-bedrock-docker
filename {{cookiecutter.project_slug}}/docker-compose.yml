@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  minecraft:
+    image: "{{cookiecutter.registry_prefix}}/minecraft"
+    build:
+      context: .
+    volumes:
+      - "worlds:/opt/minecraft/worlds"
+    ports:
+      - {{cookiecutter.published_udp_port}}:19132/udp
+
+volumes:
+  worlds:
