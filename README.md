@@ -44,3 +44,4 @@ How to use
 * Optionally, edit `whitelist.json`, `server.properties`, or `permissions.json` as required
 * `make && make deploy`
 * Add the fully qualified domain name and the port of your new server to the server tab of your Minecraft client
+* Have fun!
