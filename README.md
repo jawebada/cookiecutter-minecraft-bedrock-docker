@@ -14,6 +14,7 @@ The world will be saved in a volume created by the docker-compose file.
 *If your docker swarm consists of multiple nodes you will have to add label
 constraints to
 [control the placement of the container](https://success.docker.com/article/using-contraints-and-labels-to-control-the-placement-of-containers).*
+PRs are welcome.
 
 How to use
 ----------
