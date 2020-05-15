@@ -3,9 +3,9 @@
 ## Summary
 
 This is a [Cookiecutter](https://cookiecutter.readthedocs.io) template to
-configure a docker stack called `minecraft` for the [Minecraft bedrock
-server](https://www.minecraft.net/en-us/download/server/bedrock/), which can be
-easily deployed to a docker swarm node.
+configure a docker stack called for the [Minecraft bedrock
+server](https://www.minecraft.net/en-us/download/server/bedrock/). The stack is
+called `minecraft` and can be easily deployed to a docker swarm node.
 
 Players are whitelisted and you will be asked for the operator's Minecraft name
 and XUID.
