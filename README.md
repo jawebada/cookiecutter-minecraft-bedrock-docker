@@ -3,7 +3,7 @@
 ## Summary
 
 This is a [Cookiecutter](https://cookiecutter.readthedocs.io) template to
-configure a docker stack for the [Minecraft bedrock
+configure a docker stack called `minecraft` for the [Minecraft bedrock
 server](https://www.minecraft.net/en-us/download/server/bedrock/), which can be
 easily deployed to a docker swarm node.
 
@@ -28,6 +28,7 @@ PRs are welcome.
 
 ### Build and deploy the stack on your dev machine
 
+* Install `docker` and `docker-compose`
 * Install [Cookiecutter](https://cookiecutter.readthedocs.io/)
   - `apt-get install cookiecutter` or
   - `python3 -m venv env && . env/bin/activate && pip install cookiecutter`
@@ -41,7 +42,7 @@ PRs are welcome.
   - operator_name: the Minecraft name of your server's operator
   - operator_xuid: the XUID of your server's operator
   - published_udp_port: the UDP port that will be published on your docker swarm node
-  - docker_context: the name of the docker context you just created
+  - docker_context: the name of the docker context for your docker swarm node
   - registry_prefix: this is either your Docker Hub user name or *hostname:port* for your private registry
 * `cd your-configuration-directory`
 * Download the [latest bedrock server software for ubuntu](https://www.minecraft.net/en-us/download/server/bedrock/) and save it in your configuration directory
