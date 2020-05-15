@@ -1,10 +1,5 @@
-build: minecraft.tar.bz2
+build:
 	docker-compose build minecraft
-
-minecraft.tar.bz2: $(wildcard bedrock-server-*.zip)
-	unzip -d minecraft bedrock-server-*.zip
-	tar cvjf minecraft.tar.bz2 minecraft
-	rm -rf minecraft
 
 push: build
 	docker-compose push minecraft
